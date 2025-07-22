@@ -83,7 +83,7 @@ const Index = () => {
     : games.filter(game => game.category === selectedCategory);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-nintendo-blue/10 to-nintendo-red/10">
+    <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b-4 border-nintendo-red">
         <div className="container mx-auto px-4 py-4">
